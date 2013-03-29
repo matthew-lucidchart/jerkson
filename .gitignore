@@ -1,5 +1,6 @@
 .idea
 .iml
+.lib
 lib_managed
 target
 project/boot
@@ -8,3 +9,4 @@ project/plugins/lib_managed
 project/plugins/src_managed
 project/plugins/target
 project/plugins/project/build.properties
+project/target

@@ -17,7 +17,7 @@ class EitherDeserializer(config: DeserializationConfig,
     try {
       Left(tp.getCodec.readValue[Object](tp, javaType.containedType(0)))
     } catch {
-      case _ => Right(tp.getCodec.readValue[Object](tp, javaType.containedType(1)))
+      case _: Exception => Right(tp.getCodec.readValue[Object](tp, javaType.containedType(1)))
     }
   }
 }

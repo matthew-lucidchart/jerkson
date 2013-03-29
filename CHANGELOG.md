@@ -1,3 +1,10 @@
+v0.5.0: Mar 29 2013
+===================
+
+* Upgraded to scala 2.10.1
+* Use sbt instead of maven
+* Dropped all tests to accommodate missing test suite (in scala 2.10.1)
+
 v0.5.0: Oct 07 2011
 ===================
 

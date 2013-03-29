@@ -7,10 +7,17 @@ Jerkson is a Scala wrapper for [Jackson](http://jackson.codehaus.org/) which
 brings Scala's ease-of-use to Jackson's features.
 
 
+Diff From Upstream
+------------------
+
+- Scala 2.10.x support
+- sbt 0.12.2 instead of maven
+
+
 Requirements
 ------------
 
-* Scala 2.8.2 or 2.9.1
+* Scala 2.10.x
 * Jackson 1.9.x
 
 
